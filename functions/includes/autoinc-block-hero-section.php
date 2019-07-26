@@ -17,7 +17,7 @@ function acfgbc_BlockHeroSection() {
 		'description'     => __( 'Block – Hero Section' ),
 		'render_callback' => 'acfgbc_BlockHeroSection_rc',
 		'category'        => 'technickswpwordpresstheme',
-		'icon'            => 'tagcloud',
+		'icon'            => 'image-flip-horizontal',
 		'mode'            => 'edit',
 		'supports'        => array( 'align' => false, 'multiple' => true, ),
 		'keywords'        => array( 'Row', 'Common' ),
