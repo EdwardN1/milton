@@ -8,6 +8,8 @@ CSS file.
 
 ******************************************************************/
 
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800,900&display=swap');
+
 // Import local Foundation overrides - Don't link to Bower version as it will be overwritten whenever updated
 @import "settings";
 
@@ -68,3 +70,4 @@ CSS file.
 @import "global";
 @import "slick/slick";
 @import "slick/slick-theme";
+@import "components/header";

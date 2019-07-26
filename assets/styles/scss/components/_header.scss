@@ -1,0 +1,52 @@
+#account-bar {
+  background-color: $dark-blue;
+  position: relative;
+  height: 70px;
+  #account-sign-in {
+    background-color: $blue;
+    color: $white;
+    font-size: 22px;
+    line-height: 46px;
+    border: 2px solid $white;
+    border-top: none;
+    background-repeat: no-repeat;
+    background-position: 1rem center;
+    a, a:focus, a:hover {
+      outline: none;
+      background-color: transparent;
+      color: $white;
+      font-size: 22px;
+      line-height: 46px;
+      padding-left: 4rem;
+      padding-right: 2rem;
+    }
+  }
+}
+
+#top-section {
+  padding-top: 1.8rem;
+  padding-bottom: 1.8rem;
+}
+
+#cart-totals {
+  background-repeat: no-repeat;
+  background-position: 1rem top;
+  padding-bottom: 1.8rem;
+  a {
+    padding-top: 0.3rem;
+    line-height: 33px;
+    font-size: 22px;
+    padding-left: 3.4rem;
+    display: block;
+  }
+}
+
+#utility-bar {
+  .tel {
+    padding-right: 1rem;
+    a {
+      font-weight: $semi-bold;
+      font-size: 30px;
+    }
+  }
+}
