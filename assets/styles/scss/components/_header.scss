@@ -49,4 +49,36 @@
       font-size: 30px;
     }
   }
+  .search {
+    padding-right: 1rem;
+  }
+}
+
+#top-bar-menu {
+  #main-nav {
+    justify-content: center;
+    li {
+      position: relative;
+      &:after {
+        content: "|";
+        position: absolute;
+        top: 0;
+        right: 0;
+        font-weight: $regular;
+        font-size: 25px;
+        line-height: 1;
+      }
+      a {
+        font-weight: $regular;
+        font-size: 25px;
+        padding-top: 0;
+        padding-bottom: 0;
+      }
+    }
+    li:last-child {
+      &:after {
+        content: "";
+      }
+    }
+  }
 }

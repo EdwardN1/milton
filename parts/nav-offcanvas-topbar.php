@@ -6,19 +6,14 @@
  */
 ?>
 
-<div class="top-bar" id="top-bar-menu">
-	<div class="top-bar-left float-left">
-		<ul class="menu">
-			<li><a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a></li>
-		</ul>
-	</div>
-	<div class="top-bar-right show-for-medium">
+<div id="top-bar-menu">
+	<div class="top-bar-right show-for-large">
 		<?php joints_top_nav(); ?>	
 	</div>
-	<div class="top-bar-right float-right show-for-small-only">
+	<div class="top-bar-right float-right hide-for-large">
 		<ul class="menu">
-			<!-- <li><button class="menu-icon" type="button" data-toggle="off-canvas"></button></li> -->
-			<li><a data-toggle="off-canvas"><?php _e( 'Menu', 'jointswp' ); ?></a></li>
+            <li><button class="menu-icon" type="button" data-toggle="off-canvas"></button></li>
+			<li><a data-toggle="off-canvas" class="text-center menu-button"><img src="<?php echo get_icon('Menu Bars') ?>"><br>Menu</a></li>
 		</ul>
 	</div>
 </div>

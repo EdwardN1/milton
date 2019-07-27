@@ -1,0 +1,23 @@
+.search-form-container {
+  border: 1px solid $body-font-color;
+  border-radius: 1.65rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  label {
+    display: inline-block;
+    > input, > input:focus {
+      margin: 0;
+      padding: 0;
+      border: none;
+      box-shadow: none;
+      height: 1.6rem;
+    }
+  }
+  button {
+    display: inline-block;
+    cursor: pointer;
+    height: 1.6rem;
+  }
+}
