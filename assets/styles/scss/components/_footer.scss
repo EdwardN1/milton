@@ -1,0 +1,35 @@
+#footer-links-container {
+  background-color: $dark-gray;
+  #footer-links {
+    li {
+      position: relative;
+      width: auto;
+
+      &:after {
+        content: "|";
+        position: absolute;
+        top: 0;
+        right: 0;
+        font-weight: $regular;
+        font-size: 12px;
+        line-height: 1;
+        color: $white;
+        padding-top: 0.5rem;
+        @include breakpoint(large) {
+          font-size: 25px;
+          font-weight: $regular;
+        }
+      }
+      a {
+        color: $white;
+      }
+    }
+    li:last-child {
+      &:after {
+        content: "";
+      }
+    }
+  }
+
+
+}
