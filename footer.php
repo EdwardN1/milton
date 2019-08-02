@@ -11,6 +11,16 @@
 <footer class="footer" role="contentinfo">
 
     <div class="grid-container">
+        <div id="newsletter-form" class="grid-x">
+            <div class="cell auto newsletter-message">
+                Sign up our newsletter for all the latest offers
+            </div>
+            <div class="cell shrink">
+                <?php
+                gravity_form(1, false, false, false, '', true);
+                ?>
+            </div>
+        </div>
     </div>
     <div id="footer-links-container">
         <div class="grid-x">

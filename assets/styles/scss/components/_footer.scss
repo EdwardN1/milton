@@ -30,6 +30,59 @@
       }
     }
   }
+}
 
-
+#newsletter-form {
+  background-color: $medium-gray;
+  font-size: 25px;
+  font-weight: bold;
+  border: 1px solid $dark-gray;
+  margin-bottom: 1rem;
+  padding: 0.2rem;
+  padding-left: 2rem;
+  .newsletter-message {
+    line-height: 40px;
+  }
+  .gform_confirmation_message {
+    line-height: 40px;
+    padding-right: 2rem;
+  }
+  .gform_wrapper {
+    margin: 0;
+    ul li.gfield {
+      margin: 0;
+      padding: 0;
+      input[type=text] {
+        margin: 0;
+        padding: 0;
+        padding-left: 1rem;
+        border: 1px solid $dark-gray;
+        min-width: 450px;
+        font-size: 18px;
+      }
+    }
+    .top_label div.ginput_container {
+      margin: 0;
+    }
+  }
+  .gform_body {
+    display: inline-block;
+    width: auto;
+  }
+  .gform_footer {
+    display: inline-block;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    input[type=submit] {
+      margin: 0;
+      padding: 0;
+      background-color: $dark-gray;
+      line-height: 37px;
+      padding-left: 0.3rem;
+      padding-right: 0.3rem;
+      margin-left: -7px;
+      font-size: 18px;
+    }
+  }
 }
