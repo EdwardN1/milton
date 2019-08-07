@@ -43,7 +43,7 @@
 	<?php get_template_part( 'parts/content', 'offcanvas' ); ?>
 
     <div class="off-canvas-content" data-off-canvas-content>
-
+        <div class="fixed-header"></div>
         <header class="header" role="banner">
             <div class="show-for-large">
                 <div id="account-bar">

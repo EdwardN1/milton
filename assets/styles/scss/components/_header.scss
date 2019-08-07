@@ -1,3 +1,35 @@
+header {
+  &.header {
+    padding-bottom: 0.5rem;
+    position: fixed;
+    background-color: $white;
+    top: 0;
+    left: 0;
+    width: 100%;
+    //outline: 1px solid green
+  }
+}
+.fixed-header {
+  //outline: 1px solid orange;
+  height: 154px;
+  @include breakpoint(large) {
+    height: 298px;
+  }
+}
+.admin-bar {
+  header.header {
+    top: 46px;
+    @include breakpoint(large) {
+      top: 32px;
+    }
+  }
+}
+#wpadminbar {
+  position: fixed;
+  /*@include breakpoint(800) {
+    position: inherit;
+  }*/
+}
 #account-bar {
   background-color: $dark-blue;
   position: relative;
