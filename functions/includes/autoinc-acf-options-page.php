@@ -39,6 +39,21 @@ function get_icon($name)
     return $res;
 }
 
+function get_footer_column($name) {
+	$res = '';
+	if (have_rows('footer_columns', 'option')):
+		while (have_rows('footer_columns', 'option')): the_row();
+			$column_name = get_sub_field('column_name');
+			$column = get_sub_field('column');
+			if ($column_name == $name) {
+				$res = $column;
+			}
+		endwhile;
+	endif;
+
+	return $res;
+}
+
 function get_secondary_logo($name)
 {
     $res = '';
